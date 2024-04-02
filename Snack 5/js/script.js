@@ -19,7 +19,7 @@ numUser.push(num6);
 console.log(numUser);
 
 for (let i = 0; i < numUser.lenght; i++) {
-  if (numUser[i] % 2 === 0) {
+  if (numUser[i] % 2 !== 0) {
     numOdd.push(numUser[i]);
     console.log(numOdd);
     console.log(numUser);
