@@ -73,10 +73,10 @@ Stampa le potenze di 2 fino a 1000.
 **--Esecuzione logica--**
 ```
 for i = 2; i < 1000; i++
-  console.log(i*2)
+  i ** 2
 ```
 **--Output--**
--stampare la somma
+-stampare la potenza
 
 
 
@@ -84,5 +84,26 @@ for i = 2; i < 1000; i++
 Chiedi un numero di 4 cifre all'utente
 e calcola la somma di tutte le cifre che compongono il numero.
 
+**Soluzione :**
+**--Raccolta dati--**
+-Chiedere all'utente 4 numeri
+**--Esecuzione logica--**
+-sommare ogni numero che ci fornisce l'utente
+**--Output--**
+-stampare la somma
+
+
+
 #### JSnack 9
 Calcola la somma e la media dei primi 10 numeri.
+
+**Soluzione :**
+**--Raccolta dati--**
+-creare un variabile per la somma
+**--Esecuzione logica--**
+```
+for i = 1; i < 10; i++
+  somma --> i+=i
+```
+**--Output--**
+-stampare la somma e la media degli numeri
